@@ -64,6 +64,35 @@ body {
 .save-button:hover {
   background-color: green;
   color: white;
+  cursor: pointer;
+}
+
+.update-button {
+  position: absolute;
+  top: 75px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.update-button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button {
+  position: absolute;
+  top: 125px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
 }
 
 .home-button {
@@ -74,4 +103,29 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+form{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+input{
+  margin: 2px;
+}
+
+form button{
+  margin: 2px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
 }
